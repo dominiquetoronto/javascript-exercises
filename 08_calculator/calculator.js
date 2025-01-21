@@ -15,9 +15,9 @@ const sum = function(numbersArray) {
   return sumnum;	
 };
 
-const multiply = function(...args) {
+const multiply = function(numbersArray) {
     let multnum = 1;
-  for(let number of args){
+  for(let number of numbersArray){
     multnum *= number}
     return multnum;
 };

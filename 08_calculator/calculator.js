@@ -35,8 +35,6 @@ const factorial = function(num) {
       fact *= i; 
     }
   } return fact;
-}
- 
 };
 
 // Do not edit below this line
